@@ -1,3 +1,12 @@
+# **GitHub Compare**
+
+![bg-app-image](/documentation/app.png)
+
+
+This is a simple React App, made during a Bootcamp. With this application, you can search, save, delete and update repositories of the github API.
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
