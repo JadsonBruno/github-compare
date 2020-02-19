@@ -14,6 +14,22 @@ export const Form = styled.form`
   max-width: 400px;
   display: flex;
 
+  @media (max-width: 420px) {
+    flex-direction: column;
+    align-items: center;
+
+    input {
+      margin: 10px 0;
+      flex: 1;
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+    }
+
+    button {
+      margin-bottom: -30px;
+    }
+  }
+
   input {
     flex: 1;
     height: 55px;

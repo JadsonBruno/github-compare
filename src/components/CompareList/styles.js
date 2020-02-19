@@ -5,6 +5,14 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   margin-top: 50px;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 1920px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Repository = styled.div`
@@ -15,6 +23,14 @@ export const Repository = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 10px;
+
+  @media (max-width: 600px) {
+    margin-top: 20px;
+  }
+
+  @media (max-width: 1920px) {
+    margin: 10px 10px;
+  }
 
   header {
     padding: 30px;
